@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/view_background"
+    android:orientation="vertical"
+    tools:context=".EtudiantAllActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecycleSeance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:visibility="gone"
+        android:background="@color/btn_bg"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/seances"
+        android:textColor="@color/white"
+        android:id="@+id/btnAddRemAbs"/>
+
+</LinearLayout>

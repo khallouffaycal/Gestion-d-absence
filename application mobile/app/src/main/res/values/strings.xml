@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gestion absences</string>
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+    <string name="facerec">FaceRec</string>
+    <string name="reconnaissance_faciale">Reconnaissance Faciale</string>
+    <string name="seances">Seances restantes</string>
+    <string name="element_de_module">Element de module: </string>
+    <string name="debut_du_seance">Debut du Seance:</string>
+    <string name="fin_du_seance">Fin du seance:</string>
+    <string name="salle_du_seance">Salle du seance</string>
+    <string name="absences">Absences</string>
+    <string name="etudiants">Etudiants</string>
+    <string name="prenom">Prenom</string>
+    <string name="nom">Nom</string>
+    <string name="tous_les_seances">Tous les seances</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_log">Login log</string>
+    <string name="seance_absent">Absence</string>
+    <string name="log_out">Log out</string>
+
+</resources>

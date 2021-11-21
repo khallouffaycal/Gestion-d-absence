@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/view_background"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".Seance2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ElementId"
+        android:text="@string/element_de_module"
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DebutSeance"
+        android:textSize="18sp"
+        android:textColor="#a9a9a9"
+        android:layout_below="@+id/ElementId"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/debut_du_seance"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FinSeance"
+        android:textSize="18sp"
+        android:textColor="#a9a9a9"
+        android:layout_below="@id/ElementId"
+        android:layout_toRightOf="@+id/DebutSeance"
+        android:layout_toEndOf="@id/DebutSeance"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/fin_du_seance"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TypeSeance"
+        android:textSize="18sp"
+        android:textColor="#a9a9a9"
+        android:layout_toRightOf="@+id/ElementId"
+        android:layout_toEndOf="@+id/ElementId"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/fin_du_seance"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SalleSeance"
+        android:textSize="18sp"
+        android:textColor="#a9a9a9"
+        android:layout_below="@+id/DebutSeance"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/salle_du_seance"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnAbsence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_bg"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/absences"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/or"
+            android:textColor="@color/txt_font" />
+        <Button
+            android:id="@+id/btnEtudiants"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_bg"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/etudiants"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/or"
+            android:textColor="@color/txt_font" />
+        <Button
+            android:id="@+id/btnReconnaissanceFacial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_bg"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/reconnaissance_faciale"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
